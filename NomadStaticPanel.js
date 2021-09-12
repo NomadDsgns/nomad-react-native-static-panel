@@ -1,5 +1,5 @@
 import React from 'react';
-import { Text, View } from 'react-native';
+import { Text, View, StyleSheet } from 'react-native';
 
 export default function({ title, children }) {
 
@@ -19,7 +19,7 @@ export default function({ title, children }) {
     );
 };
 
-let styles = {
+const styles = StyleSheetList.create({
     titleContainer: {
         flexDirection: "row",
         justifyContent: "center",
@@ -44,4 +44,4 @@ let styles = {
         borderBottomLeftRadius: 5,
         borderBottomRightRadius: 5,
     }
-};
+});
