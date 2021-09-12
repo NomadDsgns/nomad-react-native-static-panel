@@ -17,7 +17,7 @@ export default function({ title, children }) {
     );
 };
 
-const styles = StyleSheetList.create({
+const styles = StyleSheet.create({
     titleContainer: {
         flexDirection: "row",
         justifyContent: "center",
