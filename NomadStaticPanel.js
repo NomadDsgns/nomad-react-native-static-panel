@@ -6,10 +6,8 @@ export default function({ title, children }) {
     return (
         <View>
             { title &&
-            <View>
-                <View style={styles.titleContainer} >
-                    <Text style={styles.title}>{title}</Text>
-                </View>
+            <View style={styles.titleContainer} >
+                <Text style={styles.title}>{title}</Text>
             </View>
             }
             <View style={styles.panelContainer} >
